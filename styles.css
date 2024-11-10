@@ -1,0 +1,135 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* max-width: 500px; */
+    width: 50%;
+}
+
+#heading {
+    text-align: center;
+    color: #6a11cb;
+    margin-bottom: 20px;
+}
+
+form fieldset {
+    border: 2px solid #6a11cb;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+form legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #6a11cb;
+}
+
+label {
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    background-color: #6a11cb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #2575fc;
+}
+
+.hidden {
+    display: none;
+}
+
+.resume-page {
+    margin-top: 12REM;
+    padding: 20px;
+    /* text-align: center; */
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resume-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.resume-content h1 {
+    color: #6a11cb;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.resume-content h2 {
+    color: #2575fc;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.resume-content p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #555;
+}
+
+#editButton, #backButton, #shareLinkButton, #download-pdf {
+    background-color: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#editButton:hover, #backButton:hover, #shareLinkButton:hover, #download-pdf:hover {
+    background-color: #6a11cb;
+}
